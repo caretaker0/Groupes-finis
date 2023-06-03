@@ -1,5 +1,3 @@
-import numpy as np
-
 #Pour representer un groupe, on utilise un tableau incarnant la table de la loi du groupe.
 #On cherche a ecrire une fonction qui vérifie, étant donné une table de loi, si cette table est celle d'un groupe.
 
