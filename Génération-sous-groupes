@@ -63,4 +63,12 @@ def test_distingue(H, e, G)
     return True
     
  #On teste si le sous groupe H est stable par action de conjugaison. SI oui, il est distingué et on renvoie True. Complexité en O(n*n) dans le pire des cas.
+ 
+ def neutre(G) :
+    n = len(G)
+    for i in range(n) :
+        if test_element_neutre(G, i) :
+            return i
+    return -1
+    
 
